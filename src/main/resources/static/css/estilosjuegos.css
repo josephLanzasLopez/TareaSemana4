@@ -1,0 +1,63 @@
+
+#encabezado{
+    left: 0;
+    width: 100%;
+    height: 8%;
+    background: #e88300;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    
+}
+#encabezado h1{
+    display: inline;
+}
+#menu{
+    position: absolute;
+    top: 8%;
+    left:0;
+    height: 4%;
+    width: 100%;
+    background-color: #9B8030;
+    color: black;
+    text-align: center;
+  
+}
+#menu a:visited{
+    color: black;
+}
+#menu a:hover{
+    background-color: green;
+    color: white;
+}
+#DesPagEquipo{
+    position: absolute;
+    top: 12%;
+    left:0;
+    height: 20%;
+    width: 100%;
+    background-color: cadetblue;
+    color: black;
+    
+}
+#contenidoEquipo{
+    position: absolute;
+    top: 30%;
+    left:0;
+    height: 63%;
+    width: 100%;
+    background-color: cadetblue;
+    color: black;
+    overflow: auto;
+   
+}
+#piePagina{
+    position: absolute;
+    bottom: 0;
+    left:0;
+    height: 7%;
+    width: 100%;
+    background-color: #e88300;
+    color: black;
+    text-align: center;
+}
